@@ -27,6 +27,7 @@ body {
 }
 
 .navbar ul {
+    display: inline;
     list-style-type: none;
     display: flex;
     margin: 0;
@@ -34,6 +35,7 @@ body {
 }
 
 .navbar li {
+    display: inline;
     margin-right: 20px;
 }
 
