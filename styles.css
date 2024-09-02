@@ -30,7 +30,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-left: 20px;/* Pushes the navigation items to the right */
+    margin-left: 50px;/* Pushes the navigation items to the right */
 }
 
 .navbar li {
