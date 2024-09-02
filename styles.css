@@ -23,7 +23,6 @@ body {
 .logo img {
     height: 50px;
     width: auto;
-    float: left;
 }
 
 .navbar ul {
@@ -31,7 +30,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    /* Pushes the navigation items to the right */
+    margin-left: 20px;/* Pushes the navigation items to the right */
 }
 
 .navbar li {
