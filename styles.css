@@ -6,9 +6,9 @@ body, ul {
 
 /* Set a base font and background */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #525df9;
     line-height: 1.6;
 }
 
@@ -16,7 +16,7 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #525df9;
     padding: 10px;
 }
 
@@ -86,7 +86,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #525df9;
     color: white;
     text-align: center;
     padding: 10px 0;
