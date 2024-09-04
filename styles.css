@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #333;
-    padding: 15px;
+    padding: 10px;
 }
 
 .logo img {
@@ -42,13 +42,41 @@ body {
     padding: 10px 15px;
     text-decoration: none;
     color: white;
-    background-color: #333;
-    transition: background-color 0.3s;
+    margin: 0 5px;
+  position: relative;
+  overflow: hidden;
+}
+/* navbar hover effect*/
+.navbar li a::before,
+.navbar li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ffffff;
+  transition: all 0.5s;
 }
 
-.navbar li a:hover {
-    background-color: #575757;
+.navbar li a::before {
+    top: 0;
+    left: 0;
+  }  
+
+  .navbar li a::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+
+.navbar li a:hover::before {
+    width: 100%;
+    transition: width 0.25s ease-in-out;  
 }
+
+.navbar li a:hover::after {
+    width: 100%;
+    transition: width 0.25s ease-in-out 0.25s;
+  }  
 
 /* Main content styles */
 main {
