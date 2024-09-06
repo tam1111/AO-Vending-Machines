@@ -2,13 +2,14 @@
 body, ul {
     margin: 0;
     padding: 0;
+    overflow-y: visible;
 }
 
 /* Set a base font and background */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #f4f4f4;
-    color: #525df9;
+    background: linear-gradient(45deg, #4dbe88 5%, #4dbeaf, #5cf4ff, #c1fbff);
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -40,7 +41,7 @@ body {
     display: block;
     padding: 10px 15px;
     text-decoration: none;
-    color: #525df9;
+    color: #000000;
     margin: 0 5px;
   position: relative;
   overflow: hidden;
@@ -52,7 +53,7 @@ body {
   position: absolute;
   width: 0;
   height: 2px;
-  background: #525df9;
+  background: #000000;
   transition: all 0.5s;
 }
 
@@ -85,10 +86,31 @@ main {
 
 /* Footer styles */
 footer {
-    color:  #525df9;
+    color:  #000000;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
+
+
+.section-h1{
+    width: min(100% - 2.5rem, 1280px);
+    padding-top: 100px;
+    margin-inline: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.section-h1 > div{
+    background-color: #ffffff;
+    border-radius: 10%;
+    height: 7cm;
+    width: 7cm;
+    
+}
+
+
