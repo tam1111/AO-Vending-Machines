@@ -93,6 +93,10 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    min-height:10vh; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:space-between;
 }
 
 
@@ -125,4 +129,34 @@ footer {
 
 .p1{
     text-align: right;
+}
+
+.CTul{
+    list-style: none;
+    text-align: left;
+
+}
+
+.CT1A{
+    display: grid;
+    grid-template:
+     "CT1 CT1 MCM2i" 25% 25% 50%;
+}
+
+.MCM2t{
+    text-align: left;
+
+}
+
+.MCM2p{
+    text-align: left;
+}
+
+.MCM2i{
+    width: 350px;
+    height: auto;
+}
+
+.ben{
+    text-align: left;
 }
